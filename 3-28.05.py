@@ -1,0 +1,6 @@
+var_a =float (input("Input var a\n"))
+var_b =float (input("Input var b\n"))
+print("a=",var_a)
+print("b=", var_b)
+print("2a+b=", 2*var_a+var_b)
+print("a-b=", var_a-var_b)
