@@ -1,4 +1,3 @@
-# We need a function that can transform a number into a string.
-number=int(input("Input number: "))
-number=str(number)
-print(number)
+# Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+boo=bool(input("Input condition: "))
+print("Yes") if boo else print("No")
