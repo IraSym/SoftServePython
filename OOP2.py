@@ -17,7 +17,7 @@ class Quadrangle (Polygon):
 
     def findPerymetr(self):
         a, b, c, d = self.sides
-        perymetr = (a + b + c + d) / (self.n)
+        perymetr = (a + b + c + d) / 2
         print('The perymetr of the quadrangle is %0.2f' %perymetr)
 
 q=Quadrangle()
